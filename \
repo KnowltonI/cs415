@@ -1,0 +1,27 @@
+#include <iostream>
+#include <iomanip>
+#include <string>
+
+#include "dispenser.h"
+
+using namespace std;
+
+int main (int argc, char **argv) {
+	cout << "Here are you choices" << endl << endl;
+	/*
+	Todo
+	print out 3 candy bars and their prices, with 2 bags and chips
+	and 2 types of gum
+	*/
+	string usrinput;
+	int amount;
+	cout << "Please insert your cash" << endl;
+	//amount = getline(stdin);
+	cin >> usrinput;
+	amount = stoi(usrinput);
+	/*
+	Check the amount make sure it matches up use a method to the despensure 
+	class, have it print out a message to the user
+	*/
+	return 0;
+}
